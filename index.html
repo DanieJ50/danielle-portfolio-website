@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Danielle Julian's multidisciplinary design portfolio: graphic design, UX/UI, branding, web, interactive experiences, advertising, and Heartberry Quest.">
+  <meta name="theme-color" content="#fff6e9">
+  <title>Danielle Julian — Design Playground</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to work</a>
+  <div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+  <div class="cursor-orb" id="cursorOrb" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="wordmark magnetic" href="#top" aria-label="Danielle Julian home">
+      <span class="wordmark-dot" aria-hidden="true"></span>
+      <span>Danielle Julian</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Toggle navigation</span>
+    </button>
+
+    <nav class="main-nav" id="mainNav" aria-label="Primary navigation">
+      <a href="#journey">Journey</a>
+      <a href="#featured">Featured</a>
+      <a href="#work">All work</a>
+      <a href="#archive">Archive</a>
+      <a class="nav-cta magnetic" href="#contact">Available now</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero theme-cream" data-accent="#f44861" aria-labelledby="heroTitle">
+      <div class="hero-sparkles" id="heroSparkles" aria-hidden="true"></div>
+      <div class="hero-blob blob-a" data-parallax="0.08" aria-hidden="true"></div>
+      <div class="hero-blob blob-b" data-parallax="-0.06" aria-hidden="true"></div>
+      <div class="hero-blob blob-c" data-parallax="0.04" aria-hidden="true"></div>
+
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span>2021 → 2026</span> Multidisciplinary design portfolio</p>
+        <h1 id="heroTitle">I DESIGN <em>PLAYFUL</em><br> SYSTEMS WITH <span>PURPOSE.</span></h1>
+        <p class="hero-deck">Graphic design, UX/UI, branding, web, advertising, interactive experiences, visual storytelling — and one very dramatic berry queen.</p>
+        <div class="hero-actions">
+          <a class="button button-primary magnetic" href="#featured">Explore featured work <span aria-hidden="true">↘</span></a>
+          <a class="button button-ghost magnetic" href="#work">See everything <span aria-hidden="true">✦</span></a>
+        </div>
+        <div class="status-row" aria-label="Current professional status">
+          <span><strong>Coursework complete</strong> · ceremony Dec 2026</span>
+          <span><strong>Google UX Design Certificate</strong> · completed</span>
+          <span><strong>Availability</strong> · now</span>
+        </div>
+      </div>
+
+      <div class="hero-stage" aria-label="Selected portfolio preview">
+        <article class="float-card float-card-a tilt" data-tilt="10">
+          <img src="assets/heartberry/ruby-portrait.webp" alt="Ruby Razzleberry character from Heartberry Quest">
+          <span>GAME + BRAND</span>
+        </article>
+        <article class="float-card float-card-b tilt" data-tilt="8">
+          <img src="assets/portfolio/savesip-ui.webp" alt="SaveSip mobile interface screens">
+          <span>UX / UI</span>
+        </article>
+        <article class="float-card float-card-c tilt" data-tilt="8">
+          <img src="assets/portfolio/just-buy-it-runner.webp" alt="Just Buy It Nike culture-jamming advertisement">
+          <span>CAMPAIGN</span>
+        </article>
+        <div class="orbit-sticker sticker-one" aria-hidden="true">✦</div>
+        <div class="orbit-sticker sticker-two" aria-hidden="true">UX</div>
+        <div class="orbit-sticker sticker-three" aria-hidden="true">🍓</div>
+      </div>
+
+      <a class="scroll-cue" href="#journey" aria-label="Scroll to design journey">
+        <span>Scroll through the story</span><i aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <section class="marquee-band" aria-label="Design disciplines">
+      <div class="marquee marquee-left">
+        <div class="marquee-inner">
+          <span>GRAPHIC DESIGN</span><b>✦</b><span>UX/UI</span><b>✦</b><span>BRANDING</span><b>✦</b><span>WEB DESIGN</span><b>✦</b><span>INTERACTION</span><b>✦</b><span>VISUAL STORYTELLING</span><b>✦</b>
+          <span>GRAPHIC DESIGN</span><b>✦</b><span>UX/UI</span><b>✦</b><span>BRANDING</span><b>✦</b><span>WEB DESIGN</span><b>✦</b><span>INTERACTION</span><b>✦</b><span>VISUAL STORYTELLING</span><b>✦</b>
+        </div>
+      </div>
+    </section>
+
+    <section class="journey section-pad theme-soft" id="journey" data-accent="#ff8b2e" aria-labelledby="journeyTitle">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 · THE JOURNEY</p>
+        <h2 id="journeyTitle">FROM MAKING GRAPHICS<br>TO BUILDING <em>WORLDS.</em></h2>
+        <p>I started with logos, posters, social graphics, and photo manipulation. The work kept expanding: branding → UX → interaction → code → game systems. The through-line is still the same — making ideas feel alive.</p>
+      </div>
+
+      <div class="journey-layout">
+        <div class="journey-visual reveal">
+          <div class="journey-frame tilt" data-tilt="5">
+            <img src="assets/portfolio/journey-art.webp" alt="Illustration showing a student's growth from uncertainty into a brighter city future">
+            <span class="journey-label">DESIGN IS HOW I BECAME VISIBLE.</span>
+          </div>
+        </div>
+
+        <div class="timeline" id="timeline">
+          <div class="timeline-line" aria-hidden="true"><span id="timelineFill"></span></div>
+          <article class="timeline-item reveal">
+            <span class="timeline-year">2021–2024</span>
+            <h3>THE SELF-TAUGHT ERA</h3>
+            <p>Logos, flyers, advertisements, photo composites, social graphics, vector experiments, and early web mockups. I learned by making — a lot.</p>
+            <div class="mini-tags"><span>Photoshop</span><span>Illustrator</span><span>Advertising</span></div>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-year">2024–2025</span>
+            <h3>DESIGN BECOMES A SYSTEM</h3>
+            <p>At UTD, the work became more intentional: typography, visual identity, interaction, ethics, research, campaigns, and structured design thinking.</p>
+            <div class="mini-tags"><span>Graphic Design</span><span>Brand Systems</span><span>Research</span></div>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-year">2025–2026</span>
+            <h3>PRODUCT + INTERACTION</h3>
+            <p>SaveSip, SmartCart, Berry Vibes, smart-city crossing research, low/high-fidelity wireframes, gamification, and the Google UX Design Certificate.</p>
+            <div class="mini-tags"><span>UX/UI</span><span>Product Thinking</span><span>IoT</span></div>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-year">2026</span>
+            <h3>CODE, WORLDBUILDING + HEARTBERRY QUEST</h3>
+            <p>Interactive web experiences, JavaScript games, culture jamming, and a full character-led game brand spanning heroes, villains, environments, UI, abilities, and launch-ready assets.</p>
+            <div class="mini-tags"><span>HTML/CSS/JS</span><span>Game Visual Systems</span><span>Creative Direction</span></div>
+          </article>
+          <article class="timeline-item timeline-now reveal">
+            <span class="timeline-year">NOW</span>
+            <h3>COURSEWORK COMPLETE. AVAILABLE.</h3>
+            <p>My formal graduation ceremony is in December 2026. The degree work is complete, and I am available for graphic design, visual design, UX/UI, web, branding, and marketing creative opportunities now.</p>
+            <div class="mini-tags"><span>Available Now</span><span>DFW</span><span>Multidisciplinary</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured section-pad theme-dark" id="featured" data-accent="#c545ff" aria-labelledby="featuredTitle">
+      <div class="featured-backdrop" aria-hidden="true"></div>
+      <div class="section-heading section-heading-light reveal">
+        <p class="eyebrow">02 · FEATURED WORLD</p>
+        <h2 id="featuredTitle">HEARTBERRY QUEST<br><em>FROM CHARACTER TO UNIVERSE.</em></h2>
+        <p>A bright puzzle adventure built as a complete visual system: studio architecture, game identity, a six-character hero ensemble, regions, powers, worldbuilding, boss gameplay, and a villain designed to break the palette on purpose.</p>
+      </div>
+
+      <div class="heartberry-hero reveal">
+        <div class="heartberry-keyart tilt" data-tilt="4">
+          <img src="assets/heartberry/brambleveil-citadel.webp" alt="Brambleveil Citadel environment concept from Heartberry Quest">
+          <div class="keyart-badge">BERRY REALM / BRAMBLEVEIL CITADEL</div>
+        </div>
+        <div class="heartberry-summary">
+          <p class="kicker">Brand architecture</p>
+          <h3>BERRY BELLE STUDIOS → HEARTBERRY QUEST → THE BERRY BUNCH → THE BERRY REALM</h3>
+          <p>The playful side uses rounded fruit forms, glossy materials, vivid character colors, and warm environments. The villain side deliberately mutates those rules into thorns, deep plum, magenta crystal light, sharper silhouettes, and gothic fantasy.</p>
+          <div class="metric-grid">
+            <div><strong data-counter="6">0</strong><span>Core heroes</span></div>
+            <div><strong data-counter="6">0</strong><span>Signature powers</span></div>
+            <div><strong data-counter="1">0</strong><span>Boss queen</span></div>
+            <div><strong data-counter="1">0</strong><span>Connected world</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="berry-bunch-grid" aria-label="The Berry Bunch character lineup">
+        <article class="berry-card berry-red reveal tilt" data-tilt="5">
+          <img src="assets/heartberry/ruby-portrait.webp" alt="Ruby Razzleberry">
+          <div><span>THE BOLD SPARK</span><h3>Ruby Razzleberry</h3><p>Razzle Blast · Razzle Ridge</p></div>
+        </article>
+        <article class="berry-card berry-blue reveal tilt" data-tilt="5">
+          <img src="assets/heartberry/bluebelle-portrait.webp" alt="Bubbly Bluebelle">
+          <div><span>THE CLEVER CALM</span><h3>Bubbly Bluebelle</h3><p>Brainwave · Bluebelle Bay</p></div>
+        </article>
+        <article class="berry-card berry-purple reveal tilt" data-tilt="5">
+          <img src="assets/heartberry/plumbleberry-portrait.webp" alt="Plumbleberry">
+          <div><span>THE MOONLIT HEART</span><h3>Plumbleberry</h3><p>Moonplum Mystery · Moonplum Hollow</p></div>
+        </article>
+        <article class="berry-card berry-green reveal tilt" data-tilt="5">
+          <img src="assets/heartberry/gooseberry-portrait.webp" alt="Gooseberry Giggles">
+          <div><span>THE WILD CARD</span><h3>Gooseberry Giggles</h3><p>Giggle Bounce · Giggle Grove</p></div>
+        </article>
+        <article class="berry-card berry-gold reveal tilt" data-tilt="5">
+          <img src="assets/heartberry/sunny-portrait.webp" alt="Sunny Goldenberry">
+          <div><span>THE JOYFUL GLOW</span><h3>Sunny Goldenberry</h3><p>Sunshine Burst · Golden Glow Gardens</p></div>
+        </article>
+        <article class="berry-card berry-orange reveal tilt" data-tilt="5">
+          <img src="assets/heartberry/tangerberry-portrait.webp" alt="Tangerberry">
+          <div><span>THE CREATIVE TRAILBLAZER</span><h3>Tangerberry</h3><p>Creative Spark · Tangerine Trail</p></div>
+        </article>
+      </div>
+
+      <div class="production-sheets reveal" aria-label="Heartberry Quest character production sheets">
+        <div class="production-intro">
+          <p class="kicker">Character production pack</p>
+          <h3>SIX HEROES. ONE SHARED DESIGN LANGUAGE.</h3>
+          <p>Each production sheet carries the same system — turnaround views, facial expressions, color palette, signature details, material notes, and scale — while preserving a distinct personality and gameplay role.</p>
+        </div>
+        <div class="sheet-rail">
+          <button class="sheet-card js-lightbox" type="button" data-image="assets/heartberry/ruby-sheet.webp" data-caption="Ruby Razzleberry — character production sheet"><img src="assets/heartberry/ruby-sheet.webp" alt="Ruby Razzleberry character production sheet" loading="lazy"><span>RUBY</span></button>
+          <button class="sheet-card js-lightbox" type="button" data-image="assets/heartberry/bluebelle-sheet.webp" data-caption="Bubbly Bluebelle — character production sheet"><img src="assets/heartberry/bluebelle-sheet.webp" alt="Bubbly Bluebelle character production sheet" loading="lazy"><span>BLUEBELLE</span></button>
+          <button class="sheet-card js-lightbox" type="button" data-image="assets/heartberry/plumbleberry-sheet.webp" data-caption="Plumbleberry — character production sheet"><img src="assets/heartberry/plumbleberry-sheet.webp" alt="Plumbleberry character production sheet" loading="lazy"><span>PLUMBLEBERRY</span></button>
+          <button class="sheet-card js-lightbox" type="button" data-image="assets/heartberry/gooseberry-sheet.webp" data-caption="Gooseberry Giggles — character production sheet"><img src="assets/heartberry/gooseberry-sheet.webp" alt="Gooseberry Giggles character production sheet" loading="lazy"><span>GOOSEBERRY</span></button>
+          <button class="sheet-card js-lightbox" type="button" data-image="assets/heartberry/sunny-sheet.webp" data-caption="Sunny Goldenberry — character production sheet"><img src="assets/heartberry/sunny-sheet.webp" alt="Sunny Goldenberry character production sheet" loading="lazy"><span>SUNNY</span></button>
+          <button class="sheet-card js-lightbox" type="button" data-image="assets/heartberry/tangerberry-sheet.webp" data-caption="Tangerberry — character production sheet"><img src="assets/heartberry/tangerberry-sheet.webp" alt="Tangerberry character production sheet" loading="lazy"><span>TANGERBERRY</span></button>
+        </div>
+      </div>
+
+      <div class="villain-case reveal">
+        <div class="villain-copy">
+          <p class="kicker">Character iteration</p>
+          <h3>VESPERA NIGHTBERRY<br><span>→ QUEEN VESPERA NIGHTBLOOM</span></h3>
+          <p>The working name evolved as the character became larger than a berry-themed antagonist. The final Queen Vespera Nightbloom is a boss queen with a sharper fantasy identity, her own region — Brambleveil Citadel — and the Eclipse Bloom power system.</p>
+          <ul class="villain-list">
+            <li><span>01</span> Hero palette → corrupted violet + magenta</li>
+            <li><span>02</span> Soft rounded forms → thorned silhouette language</li>
+            <li><span>03</span> Cute powers → locks, drains, brambles + decoys</li>
+            <li><span>04</span> Character sheet → boss encounter + environment</li>
+          </ul>
+        </div>
+        <div class="villain-compare">
+          <figure class="compare-card draft tilt" data-tilt="5">
+            <img src="assets/heartberry/vespera-draft.webp" alt="Early Queen Vespera Nightbloom character sheet draft">
+            <figcaption>DRAFT 01</figcaption>
+          </figure>
+          <figure class="compare-card final tilt" data-tilt="5">
+            <img src="assets/heartberry/vespera-final.webp" alt="Final Queen Vespera Nightbloom character sheet">
+            <figcaption>FINAL DESIGN</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="boss-ui reveal">
+        <img src="assets/heartberry/heartberry-boss-ui.webp" alt="Heartberry Quest boss battle interface featuring Queen Vespera Nightbloom and Plumbleberry">
+        <div class="boss-ui-copy">
+          <p class="kicker">Gameplay translation</p>
+          <h3>THE CHARACTER SYSTEM ENTERS THE BOARD.</h3>
+          <p>Character powers, villain mechanics, goals, health, boosters, locked tiles, moves, and score all share the same visual language. The character isn't decoration — the character system helps explain gameplay.</p>
+          <button class="text-link js-lightbox" type="button" data-image="assets/heartberry/heartberry-boss-ui.webp" data-caption="Heartberry Quest — boss battle UI concept">View boss UI larger <span aria-hidden="true">↗</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-study section-pad theme-cream" data-accent="#4386f5" aria-labelledby="saveSipTitle">
+      <div class="case-study-number" aria-hidden="true">03</div>
+      <div class="case-copy reveal">
+        <p class="eyebrow">PRODUCT CASE STUDY</p>
+        <h2 id="saveSipTitle">SAVESIP <span>/ CUP$I</span></h2>
+        <p class="lead">A gamified drink-spending tracker designed to make small everyday purchases visible without making budgeting feel cold or spreadsheet-heavy.</p>
+        <div class="case-pill-row"><span>UX/UI</span><span>Branding</span><span>Gamification</span><span>Product thinking</span></div>
+        <div class="case-notes">
+          <div><strong>PROBLEM</strong><p>Small café purchases feel harmless individually, but repeated habits add up.</p></div>
+          <div><strong>PIVOT</strong><p>Cup$i began as a clever money-forward symbol. SaveSip became warmer, friendlier, and easier to grow into a habit system.</p></div>
+          <div><strong>SYSTEM</strong><p>Drink logging, home-vs-store comparison, moods, challenges, levels, savings feedback, mascots, and a social recipe layer.</p></div>
+        </div>
+      </div>
+      <div class="case-gallery reveal">
+        <figure class="case-image case-image-wide tilt" data-tilt="4"><img src="assets/portfolio/savesip-ui.webp" alt="SaveSip interface screens"></figure>
+        <figure class="case-image tilt" data-tilt="4"><img src="assets/portfolio/savesip-mascots.webp" alt="SaveSip Sip and Spendy mascot designs"></figure>
+        <figure class="case-image tilt" data-tilt="4"><img src="assets/portfolio/savesip-feature-flow.webp" alt="SaveSip mobile feature flow"></figure>
+      </div>
+    </section>
+
+    <section class="work section-pad theme-white" id="work" data-accent="#78c957" aria-labelledby="workTitle">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 · ALL WORK</p>
+        <h2 id="workTitle">ONE PORTFOLIO.<br><em>MANY LANES.</em></h2>
+        <p>Filter the work by discipline. The goal here is range without chaos: each project is tied back to a problem, system, message, or visual idea.</p>
+      </div>
+
+      <div class="filter-bar reveal" role="toolbar" aria-label="Filter portfolio projects">
+        <button class="filter-chip active" type="button" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter-chip" type="button" data-filter="ux">UX/UI</button>
+        <button class="filter-chip" type="button" data-filter="branding">Branding</button>
+        <button class="filter-chip" type="button" data-filter="web">Web</button>
+        <button class="filter-chip" type="button" data-filter="graphic">Graphic</button>
+        <button class="filter-chip" type="button" data-filter="game">Game</button>
+        <button class="filter-chip" type="button" data-filter="experimental">Experimental</button>
+        <span class="filter-count" id="filterCount" aria-live="polite"></span>
+      </div>
+
+      <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <section class="campaigns section-pad theme-ink" data-accent="#ffd43a" aria-labelledby="campaignTitle">
+      <div class="section-heading section-heading-light reveal">
+        <p class="eyebrow">05 · CAMPAIGNS + CULTURE JAMMING</p>
+        <h2 id="campaignTitle">ADS THAT LOOK FAMILIAR.<br><em>MESSAGES THAT DON'T.</em></h2>
+        <p>Advertising language becomes material: recognizable visual codes, rewritten to question consumerism, status, appetite, price, and the pressure to keep buying.</p>
+      </div>
+
+      <div class="campaign-stage">
+        <article class="campaign-card campaign-large reveal tilt" data-tilt="4">
+          <img src="assets/portfolio/just-buy-it-runner.webp" alt="Nike Just Buy It parody featuring runner and price tags">
+          <div><span>NIKE PARODY</span><h3>JUST BUY IT.</h3><p>“The only limit is your wallet.”</p></div>
+        </article>
+        <article class="campaign-card reveal tilt" data-tilt="5">
+          <img src="assets/portfolio/just-buy-it-woman.webp" alt="Nike Just Buy It parody featuring woman holding a shoe">
+          <div><span>CAMPAIGN VARIATION</span><h3>CONFIDENCE. STATUS. SUCCESS.</h3></div>
+        </article>
+        <article class="campaign-card reveal tilt" data-tilt="5">
+          <img src="assets/portfolio/mcbuyin.webp" alt="McDonald's I'm Buyin' It consumerism parody">
+          <div><span>MCDONALD'S PARODY</span><h3>I'M BUYIN' IT.</h3></div>
+        </article>
+        <article class="campaign-card reveal tilt" data-tilt="5">
+          <img src="assets/portfolio/mchappiness.webp" alt="McHappiness Plus subscription parody advertisement">
+          <div><span>SUBSCRIPTION CULTURE</span><h3>SUBSCRIBE TO HAPPINESS.</h3></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="graphic-wall section-pad theme-soft" data-accent="#f44861" aria-labelledby="graphicTitle">
+      <div class="section-heading reveal">
+        <p class="eyebrow">06 · GRAPHIC DESIGN</p>
+        <h2 id="graphicTitle">IDENTITY, TYPE,<br>POSTERS + <em>IMAGE-MAKING.</em></h2>
+      </div>
+      <div class="masonry-ish">
+        <button class="wall-card wall-tall js-lightbox reveal" type="button" data-image="assets/portfolio/nyc-olympics.webp" data-caption="NYC Olympics identity — Liberty Lights the World">
+          <img src="assets/portfolio/nyc-olympics.webp" alt="Liberty Lights the World New York Olympics identity concept"><span>NYC OLYMPICS IDENTITY</span>
+        </button>
+        <button class="wall-card wall-tall js-lightbox reveal" type="button" data-image="assets/portfolio/design-is-key.webp" data-caption="Design Is the Key typographic poster">
+          <img src="assets/portfolio/design-is-key.webp" alt="Design Is the Key typographic cat poster"><span>TYPOGRAPHY</span>
+        </button>
+        <button class="wall-card js-lightbox reveal" type="button" data-image="assets/portfolio/burger-poster.webp" data-caption="Burger food advertisement">
+          <img src="assets/portfolio/burger-poster.webp" alt="Burger poster"><span>FOOD ADVERTISING</span>
+        </button>
+        <button class="wall-card js-lightbox reveal" type="button" data-image="assets/portfolio/water-graphic.webp" data-caption="Educational water graphic">
+          <img src="assets/portfolio/water-graphic.webp" alt="Water educational graphic"><span>INFORMATION DESIGN</span>
+        </button>
+        <button class="wall-card js-lightbox reveal" type="button" data-image="assets/portfolio/summer-alt-sounds.webp" data-caption="Summer Alt Sounds poster">
+          <img src="assets/portfolio/summer-alt-sounds.webp" alt="Summer Alt Sounds typography poster"><span>POSTER + TYPE</span>
+        </button>
+        <button class="wall-card wall-tall js-lightbox reveal" type="button" data-image="assets/portfolio/underwater-composite.webp" data-caption="Underwater photo composite">
+          <img src="assets/portfolio/underwater-composite.webp" alt="Underwater surreal photo composite"><span>PHOTO COMPOSITE</span>
+        </button>
+        <button class="wall-card wall-tall js-lightbox reveal" type="button" data-image="assets/portfolio/double-exposure.webp" data-caption="Double exposure portrait">
+          <img src="assets/portfolio/double-exposure.webp" alt="Double exposure city portrait"><span>DIGITAL ART</span>
+        </button>
+        <button class="wall-card js-lightbox reveal" type="button" data-image="assets/portfolio/cookie-website.webp" data-caption="Cookie website concept">
+          <img src="assets/portfolio/cookie-website.webp" alt="Cookie website design"><span>WEB DESIGN</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="process section-pad theme-white" data-accent="#8a42cc" aria-labelledby="processTitle">
+      <div class="section-heading reveal">
+        <p class="eyebrow">07 · HOW I THINK</p>
+        <h2 id="processTitle">NOT JUST <em>POLISH.</em><br>PROCESS.</h2>
+        <p>The finished image is the visible part. Under it: notes, interviews, personas, sketches, wireframes, hierarchy decisions, naming pivots, accessibility states, and lots of iteration.</p>
+      </div>
+      <div class="process-grid">
+        <figure class="process-card reveal tilt" data-tilt="4"><img src="assets/portfolio/ux-notes-1.webp" alt="Handwritten UX research notes"><figcaption><strong>01</strong> Research + synthesis</figcaption></figure>
+        <figure class="process-card reveal tilt" data-tilt="4"><img src="assets/portfolio/persona.webp" alt="UX persona document"><figcaption><strong>02</strong> Audience + persona</figcaption></figure>
+        <figure class="process-card reveal tilt" data-tilt="4"><img src="assets/portfolio/savesip-lo-fi.webp" alt="Low-fidelity SaveSip wireframes"><figcaption><strong>03</strong> Low fidelity</figcaption></figure>
+        <figure class="process-card reveal tilt" data-tilt="4"><img src="assets/portfolio/savesip-hi-fi.webp" alt="High-fidelity SaveSip wireframes"><figcaption><strong>04</strong> High fidelity</figcaption></figure>
+      </div>
+      <div class="process-line reveal" aria-label="Design process steps">
+        <span>OBSERVE</span><i>→</i><span>DEFINE</span><i>→</i><span>SKETCH</span><i>→</i><span>BUILD</span><i>→</i><span>TEST</span><i>→</i><span>REFINE</span>
+      </div>
+    </section>
+
+    <section class="archive section-pad theme-cream" id="archive" data-accent="#ff8b2e" aria-labelledby="archiveTitle">
+      <div class="section-heading reveal">
+        <p class="eyebrow">08 · THE ARCHIVE</p>
+        <h2 id="archiveTitle">THE EARLY WORK<br><em>STILL COUNTS.</em></h2>
+        <p>This is where the visual instincts started: brand recreations, ads, photo manipulation, logo experiments, social graphics, and first website concepts. Drag the rail to move through the 2021–2024 portfolio.</p>
+      </div>
+      <div class="archive-shell reveal">
+        <div class="archive-track" id="archiveTrack" tabindex="0" aria-label="Horizontal gallery of early portfolio pages">
+          <figure><img src="assets/archive/archive-01.webp" alt="Early portfolio about page"><figcaption>01 · ABOUT + EARLY COMPOSITES</figcaption></figure>
+          <figure><img src="assets/archive/archive-02.webp" alt="Early portfolio advertisements"><figcaption>02 · BEVERAGE + BURGER ADS</figcaption></figure>
+          <figure><img src="assets/archive/archive-03.webp" alt="Early portfolio advertisements and flyer"><figcaption>03 · ADVERTISING + FLYER</figcaption></figure>
+          <figure><img src="assets/archive/archive-04.webp" alt="Early portfolio illustration and photo manipulation"><figcaption>04 · ILLUSTRATION + COMPOSITES</figcaption></figure>
+          <figure><img src="assets/archive/archive-05.webp" alt="Early logo and image-making work"><figcaption>05 · LOGOS + IMAGE-MAKING</figcaption></figure>
+          <figure><img src="assets/archive/archive-06.webp" alt="Early packaging and social design"><figcaption>06 · PACKAGING + SOCIAL</figcaption></figure>
+          <figure><img src="assets/archive/archive-07.webp" alt="Early advertisements"><figcaption>07 · ADVERTISING</figcaption></figure>
+          <figure><img src="assets/archive/archive-08.webp" alt="Early cookie website mockups"><figcaption>08 · FIRST WEB CONCEPTS</figcaption></figure>
+        </div>
+        <div class="archive-controls" aria-hidden="true"><span>← DRAG</span><span>2021 — 2024</span><span>DRAG →</span></div>
+      </div>
+    </section>
+
+    <section class="skills section-pad theme-soft" data-accent="#4386f5" aria-labelledby="skillsTitle">
+      <div class="section-heading reveal">
+        <p class="eyebrow">09 · SKILL SYSTEM</p>
+        <h2 id="skillsTitle">WHAT I CAN<br><em>ACTUALLY DO.</em></h2>
+      </div>
+      <div class="skills-cloud reveal" aria-label="Design skills">
+        <span>Graphic Design</span><span>UX/UI</span><span>Brand Identity</span><span>Visual Design</span><span>Web Design</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub Pages</span><span>Wireframing</span><span>UX Research</span><span>Competitive Audits</span><span>User Flows</span><span>Gamification</span><span>Typography</span><span>Advertising</span><span>Photo Compositing</span><span>Information Design</span><span>Interaction Design</span><span>Creative Direction</span><span>Worldbuilding</span><span>Game UI</span><span>Presentation Design</span><span>Visual Storytelling</span>
+      </div>
+      <p class="tools-note reveal"><strong>Tools / platforms:</strong> Figma · Adobe Photoshop · Adobe Illustrator · Canva · Artivive · HTML/CSS/JavaScript · GitHub/GitHub Pages · Google Workspace · Microsoft PowerPoint. <strong>No Procreate — not part of my workflow.</strong></p>
+    </section>
+
+    <section class="contact theme-dark" id="contact" data-accent="#f44861" aria-labelledby="contactTitle">
+      <div class="contact-stars" aria-hidden="true"></div>
+      <div class="contact-inner reveal">
+        <p class="eyebrow">10 · LET'S MAKE SOMETHING GOOD</p>
+        <h2 id="contactTitle">COURSEWORK: <span>DONE.</span><br>CREATIVE ENERGY: <em>VERY MUCH NOT DONE.</em></h2>
+        <p>Formal graduation ceremony: December 2026. Available now for graphic design, visual design, UX/UI, web, branding, marketing creative, and interdisciplinary design opportunities.</p>
+        <div class="contact-actions">
+          <a class="button button-light magnetic" href="https://www.linkedin.com/in/danielle-julian-55664a25b/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+          <a class="button button-outline-light magnetic" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+        </div>
+      </div>
+      <div class="contact-signoff" aria-hidden="true">DANIELLE JULIAN · DESIGN PLAYGROUND · 2021—2026</div>
+    </section>
+  </main>
+
+  <aside class="chapter-dots" id="chapterDots" aria-label="Page chapters">
+    <a href="#journey" aria-label="Journey"><span></span></a>
+    <a href="#featured" aria-label="Heartberry Quest"><span></span></a>
+    <a href="#work" aria-label="All work"><span></span></a>
+    <a href="#archive" aria-label="Archive"><span></span></a>
+    <a href="#contact" aria-label="Contact"><span></span></a>
+  </aside>
+
+  <dialog class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close image">×</button>
+    <div class="lightbox-frame"><img id="lightboxImage" alt=""></div>
+    <p id="lightboxCaption"></p>
+  </dialog>
+
+  <noscript>
+    <div class="noscript-note">This portfolio uses JavaScript for project filtering and motion. The core page still works, but enable JavaScript to see the full project directory.</div>
+  </noscript>
+</body>
+</html>
